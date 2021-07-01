@@ -1,3 +1,7 @@
+/////////////////////////
+/// Animation Balance ///
+/////////////////////////
+
 function balanceScale() {
     let balance = document.getElementById('balanceIcon');
     balance.innerHTML="&#xf24e;";
@@ -7,6 +11,10 @@ function balanceScale() {
     balanceScale();
     setInterval(balanceScale, 4000)
 
+/////////////////////////
+/// Animation Cadenas ///
+/////////////////////////
+
 function openLock(){
     let lock = document.getElementById('lock');
     lock.innerHTML="&#xf023;";
@@ -14,6 +22,10 @@ function openLock(){
     }
     openLock();
     setInterval(openLock, 4000);
+
+/////////////////////////
+/// Animation Batterie //
+/////////////////////////
 
 function batteryLevel(){
     let battery = document.getElementById('battery');
@@ -26,6 +38,10 @@ function batteryLevel(){
     }
     batteryLevel();
     setInterval(batteryLevel, 4000);
+
+/////////////////////////
+//// Animation Avion ////
+/////////////////////////
 
 function jetPlane(){
     let plane = document.getElementById('plane');
